@@ -1,4 +1,4 @@
-# React Fluid Carousel
+# Custom React Carousel
 
 A highly customizable React carousel component with smooth animations and responsive layouts.
 
@@ -12,19 +12,19 @@ A highly customizable React carousel component with smooth animations and respon
 - ♿ **Accessible** - Built with accessibility in mind
 - 🔄 **Auto Play** - Optional auto-rotation with customizable interval
 
-## Installation
+<!-- ## Installation -->
 
-```bash
-npm install react-fluid-carousel framer-motion
+<!-- ```bash
+npm install react-fluid-carousel motion
 ```
 
 or
 
 ```bash
-yarn add react-fluid-carousel framer-motion
-```
+yarn add react-fluid-carousel motion
+``` -->
 
-Note: `framer-motion` is a peer dependency and needs to be installed separately.
+Note: `motion` is a peer dependency and needs to be installed separately.
 
 ## Usage
 
