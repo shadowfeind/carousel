@@ -12,17 +12,17 @@ A highly customizable React carousel component with smooth animations and respon
 - ♿ **Accessible** - Built with accessibility in mind
 - 🔄 **Auto Play** - Optional auto-rotation with customizable interval
 
-<!-- ## Installation -->
+## Installation
 
-<!-- ```bash
-npm install react-fluid-carousel motion
+```bash
+npm install traves-custom-carousel
 ```
 
 or
 
 ```bash
-yarn add react-fluid-carousel motion
-``` -->
+yarn add traves-custom-carousel
+```
 
 Note: `motion` is a peer dependency and needs to be installed separately.
 
@@ -31,7 +31,7 @@ Note: `motion` is a peer dependency and needs to be installed separately.
 ### Hero Carousel
 
 ```jsx
-import { Carousel } from "react-fluid-carousel";
+import { Carousel } from "traves-custom-carousel";
 
 const App = () => {
   const heroItems = [
@@ -66,7 +66,7 @@ const App = () => {
 ### Product Carousel
 
 ```jsx
-import { Carousel } from "react-fluid-carousel";
+import { Carousel } from "traves-custom-carousel";
 
 const App = () => {
   const productItems = [

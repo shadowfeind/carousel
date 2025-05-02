@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "motion/react";
-import "../index.css";
 
 import {
   CarouselProps,
@@ -76,7 +75,7 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({
     let interval: number | undefined;
 
     if (autoPlay && totalSlides > 1) {
-      interval = setInterval(() => {
+      interval = window.setInterval(() => {
         next();
       }, autoPlayInterval);
     }
@@ -293,7 +292,7 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({
     let interval: number | undefined;
 
     if (autoPlay && totalSlides > 1) {
-      interval = setInterval(() => {
+      interval = window.setInterval(() => {
         next();
       }, autoPlayInterval);
     }

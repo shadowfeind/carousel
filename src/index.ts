@@ -5,6 +5,7 @@ import type {
   ProductCarouselProps,
   CarouselItem,
 } from "./types";
+import "./index.css";
 
 export {
   Carousel,

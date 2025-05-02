@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { CarouselProps } from "../../src/types";
-import { Carousel } from "../main";
+import { Carousel } from "..";
 
 type StoryProps = CarouselProps;
 
