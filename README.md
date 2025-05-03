@@ -15,13 +15,13 @@ A highly customizable React carousel component with smooth animations and respon
 ## Installation
 
 ```bash
-npm install traves-custom-carousel
+npm install traves-custom-carousel motion
 ```
 
 or
 
 ```bash
-yarn add traves-custom-carousel
+yarn add traves-custom-carousel motion
 ```
 
 Note: `motion` is a peer dependency and needs to be installed separately.
